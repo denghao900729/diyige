@@ -17,7 +17,11 @@
    <button>按钮6 </button>
   <script>
   function tan(e){
-	 alert( e.target.innerHTML);
+	// alert( e.target.innerHTML);
+	if(e.target.innerHTML=="按钮3 "){ alert( "很遗憾,你被淘汰了");
+	}
+	else if(e.target.innerHTML=="按钮4 "){ alert( "很遗憾,你还是被淘汰了");
+	}
   }
 var btns=document.getElementsByTagName("button");
 btns[0].onclick = tan;
