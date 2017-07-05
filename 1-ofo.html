@@ -9,19 +9,24 @@
   <title>Document</title>
  </head>
  <body>
-  <button>
-  按钮1
-  </button>
-   <button>
-  按钮2
-  </button>
+  <button>按钮1 </button>
+   <button>按钮2 </button>
+   <button>按钮3 </button>
+   <button>按钮4 </button>
+   <button>按钮5 </button>
+   <button>按钮6 </button>
   <script>
-  function tan(){
-	 alert( "弹一闪");
+  function tan(e){
+	 alert( e.target.innerHTML);
   }
 var btns=document.getElementsByTagName("button");
 btns[0].onclick = tan;
 btns[1].onclick = tan;
+btns[2].onclick = tan;
+btns[3].onclick = tan;
+btns[4].onclick = tan;
+btns[5].onclick = tan;
+
   </script>
  </body>
 </html>

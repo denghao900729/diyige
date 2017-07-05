@@ -16,11 +16,17 @@
   按钮2
   </button>
   <script>
-  function tan(){
-	 alert( "弹一闪");
+  function tan(e){
+	 alert( e.targer.innerHTML);
   }
-var btns=document.getElemtsByTagName("button");
-btns[0].onclick = func;
+var btns=document.getElementsByTagName("button");
+btns[0].onclick = tan;
+btns[1].onclick = tan;
+btns[2].onclick = tan;
+btns[3].onclick = tan;
+btns[4].onclick = tan;
+btns[5].onclick = tan;
+
   </script>
  </body>
 </html>
