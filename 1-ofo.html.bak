@@ -20,7 +20,7 @@
 	 alert( "弹一闪");
   }
 var btns=document.getElemtsByTagName("button");
-btns[0].onclick = tan;
+btns[0].onclick = func;
   </script>
  </body>
 </html>
